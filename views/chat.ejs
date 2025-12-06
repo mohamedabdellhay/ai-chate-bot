@@ -495,6 +495,221 @@
     .chat-container::-webkit-scrollbar-thumb:hover {
       background: #6e6e80;
     }
+
+    /* Mobile Responsive Styles */
+    @media screen and (max-width: 768px) {
+
+      /* Header */
+      .header {
+        padding: 16px 12px;
+      }
+
+      .header h1 {
+        font-size: 18px;
+      }
+
+      /* Chat Container */
+      .chat-container {
+        padding: 12px 8px;
+        gap: 12px;
+      }
+
+      .chat-messages {
+        gap: 12px;
+      }
+
+      /* Message Bubbles */
+      .message {
+        gap: 8px;
+        padding: 6px 0;
+      }
+
+      .message-avatar {
+        width: 32px;
+        height: 32px;
+        font-size: 16px;
+      }
+
+      .message-content {
+        max-width: 75%;
+        font-size: 14px;
+        padding: 12px 14px;
+        border-radius: 16px;
+      }
+
+      /* Markdown Styling */
+      .message-content h1 {
+        font-size: 1.5em;
+      }
+
+      .message-content h2 {
+        font-size: 1.3em;
+      }
+
+      .message-content h3 {
+        font-size: 1.15em;
+      }
+
+      .message-content h4 {
+        font-size: 1.05em;
+      }
+
+      .message-content pre {
+        padding: 10px;
+        margin: 10px 0;
+        font-size: 0.85em;
+      }
+
+      .message-content ul,
+      .message-content ol {
+        padding-left: 20px;
+      }
+
+      .copy-button {
+        padding: 4px 8px;
+        font-size: 11px;
+        opacity: 1;
+        /* Always visible on mobile */
+      }
+
+      /* Input Area */
+      .input-area {
+        padding: 12px 8px;
+      }
+
+      .input-wrapper {
+        padding: 10px 12px;
+        border-radius: 14px;
+      }
+
+      #promptInput {
+        font-size: 14px;
+        padding: 0 4px;
+      }
+
+      .send-button {
+        padding: 10px 18px;
+        font-size: 13px;
+        border-radius: 10px;
+      }
+
+      /* Empty State */
+      .empty-state-icon {
+        font-size: 48px;
+      }
+
+      .empty-state h2 {
+        font-size: 20px;
+      }
+
+      .empty-state p {
+        font-size: 14px;
+        max-width: 300px;
+        padding: 0 12px;
+      }
+
+      /* Typing Indicator */
+      .typing-indicator {
+        padding: 6px 12px;
+      }
+    }
+
+    /* Extra Small Mobile Devices */
+    @media screen and (max-width: 480px) {
+      .header {
+        padding: 12px 8px;
+      }
+
+      .header h1 {
+        font-size: 16px;
+      }
+
+      .chat-container {
+        padding: 10px 6px;
+        gap: 10px;
+      }
+
+      .chat-messages {
+        gap: 10px;
+      }
+
+      .message {
+        gap: 6px;
+      }
+
+      .message-avatar {
+        width: 28px;
+        height: 28px;
+        font-size: 14px;
+      }
+
+      .message-content {
+        max-width: 80%;
+        font-size: 13px;
+        padding: 10px 12px;
+        border-radius: 14px;
+      }
+
+      .message-content h1 {
+        font-size: 1.4em;
+      }
+
+      .message-content h2 {
+        font-size: 1.2em;
+      }
+
+      .message-content h3 {
+        font-size: 1.1em;
+      }
+
+      .message-content pre {
+        padding: 8px;
+        margin: 8px 0;
+        font-size: 0.8em;
+        overflow-x: auto;
+      }
+
+      .message-content table {
+        font-size: 0.8em;
+      }
+
+      .message-content th,
+      .message-content td {
+        padding: 6px 8px;
+      }
+
+      .input-area {
+        padding: 10px 6px;
+      }
+
+      .input-wrapper {
+        padding: 8px 10px;
+        border-radius: 12px;
+      }
+
+      #promptInput {
+        font-size: 13px;
+      }
+
+      .send-button {
+        padding: 8px 14px;
+        font-size: 12px;
+        border-radius: 8px;
+      }
+
+      .empty-state-icon {
+        font-size: 40px;
+      }
+
+      .empty-state h2 {
+        font-size: 18px;
+      }
+
+      .empty-state p {
+        font-size: 13px;
+        max-width: 250px;
+      }
+    }
   </style>
 </head>
 
