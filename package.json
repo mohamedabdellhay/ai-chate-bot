@@ -1,0 +1,29 @@
+{
+  "name": "ai-api-client",
+  "version": "1.0.0",
+  "description": "Express.js MVC application to consume external AI API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "express",
+    "mvc",
+    "ai",
+    "api",
+    "n8n"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.2",
+    "ejs": "^3.1.9",
+    "dotenv": "^16.3.1",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
